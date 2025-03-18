@@ -1,10 +1,10 @@
-
 document.addEventListener("DOMContentLoaded", function () {
-    let linkpriceAd = document.createElement("div");
-    linkpriceAd.className = "entry-content";
-    linkpriceAd.id = "linkprice";
+    //let linkpriceAd = document.createElement("div");
+    //linkpriceAd.className = "entry-content";
+    //linkpriceAd.id = "linkprice";
     
-    linkpriceAd.innerHTML = `
+    //linkpriceAd.innerHTML = `
+	document.body.innerHTML =  `
         <a target="_blank" href="https://click.linkprice.com/click.php?m=temu&a=A100694980&l=QLG9&u_id=">
             <img src="https://img.linkprice.com/files/glink/temu/20240110/h003NqePK1R00_linkprice-dec/468_60.jpg" border="0" width="100%" height="60">
         </a>
@@ -27,6 +27,5 @@ document.addEventListener("DOMContentLoaded", function () {
     `;
 
     // 페이지의 원하는 위치에 삽입
-    document.body.appendChild(linkpriceAd);
+    //document.body.appendChild(linkpriceAd);
 });
-
