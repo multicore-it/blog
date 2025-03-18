@@ -1,11 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
-    //let linkpriceAd = document.createElement("div");
-    //linkpriceAd.className = "entry-content";
-    //linkpriceAd.id = "linkprice";
-    
-    //linkpriceAd.innerHTML = `
-	document.body.innerHTML =  `
-        <a target="_blank" href="https://click.linkprice.com/click.php?m=temu&a=A100694980&l=QLG9&u_id=">
+    let targetElement = document.body; // body 내부에 삽입 (원하는 위치에 변경 가능)
+    let customHTML = `
+       <a target="_blank" href="https://click.linkprice.com/click.php?m=temu&a=A100694980&l=QLG9&u_id=">
             <img src="https://img.linkprice.com/files/glink/temu/20240110/h003NqePK1R00_linkprice-dec/468_60.jpg" border="0" width="100%" height="60">
         </a>
         <img src="https://track.linkprice.com/lpshow.php?m_id=temu&a_id=A100694980&p_id=0000&l_id=QLG9&l_cd1=2&l_cd2=0" width="1" height="1" border="0" nosave style="display:none">
@@ -26,6 +22,6 @@ document.addEventListener("DOMContentLoaded", function () {
         <img src="https://track.linkprice.com/lpshow.php?m_id=kbbook&a_id=A100694980&p_id=0000&l_id=0391&l_cd1=2&l_cd2=0" width="1" height="1" border="0" nosave style="display:none">
     `;
 
-    // 페이지의 원하는 위치에 삽입
-    //document.body.appendChild(linkpriceAd);
+    // 기존 내용 유지하면서 광고 HTML 추가
+    targetElement.insertAdjacentHTML("beforeend", customHTML);
 });
