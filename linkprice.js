@@ -25,8 +25,8 @@ document.addEventListener("DOMContentLoaded", function () {
         `;
 
         // 특정 위치에 추가
-        targetElement.insertAdjacentHTML("afterbegin", customHTML); // 맨 위에 추가
-        // targetElement.insertAdjacentHTML("beforeend", customHTML); // 맨 아래에 추가
+        // targetElement.insertAdjacentHTML("afterbegin", customHTML); // 맨 위에 추가
+        targetElement.insertAdjacentHTML("beforeend", customHTML); // 맨 아래에 추가
         // targetElement.insertAdjacentHTML("beforebegin", customHTML); // 요소 이전에 추가
         // targetElement.insertAdjacentHTML("afterend", customHTML); // 요소 이후에 추가
     } else {
