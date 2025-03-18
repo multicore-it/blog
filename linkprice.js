@@ -1,4 +1,4 @@
-<script>
+
 document.addEventListener("DOMContentLoaded", function () {
     let linkpriceAd = document.createElement("div");
     linkpriceAd.className = "entry-content";
@@ -29,4 +29,4 @@ document.addEventListener("DOMContentLoaded", function () {
     // 페이지의 원하는 위치에 삽입
     document.body.appendChild(linkpriceAd);
 });
-</script>
+
