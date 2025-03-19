@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-	let targetElement = document.getElementById("linkprice-ad-top"); // 원하는 위치 선택
+	let targetElement = document.getElementById("linkprice-ad-mid"); // 원하는 위치 선택
 
     if (targetElement) {
         let customHTML = `
