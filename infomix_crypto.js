@@ -56,9 +56,8 @@ document.addEventListener("DOMContentLoaded", function () {
 			</style>
 			
 			<div class="container">
-			    💡 최신 기술을 배우고 수익을 창출하세요! 💡<br><br>
-          🚀 미래를 선도하는 프로그래머를 위한 필수 강의! 🚀<br><br>
-          📢 비즈니스 혁신과 자동매매의 핵심 기술을 배우고 싶은 분들을 위한 강의 모음!<br><br>
+			    💡 최신 기술을 배우고 수익을 창출하세요! 💡<br>
+          📢 비즈니스 혁신과 자동매매의 핵심 기술을 배우고 싶은 분들을 위한 강의 모음!<br>
           <a href='https://inf.run/2wTb' target='_blank'>📈 비트코인 선물거래 자동매매 시스템 (저자 직강)</a><br>
           📉 하락장에서도 수익을 거둘 수 있는 자동매매 기법!<br>
           비트코인 선물거래의 핵심 원리와 실전 매매 전략을 배우세요.<br><br>
