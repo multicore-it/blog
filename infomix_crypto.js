@@ -64,9 +64,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
           <a href='https://inf.run/gkkL' target='_blank'>🤖 비트코인 알고리즘 트레이딩 봇 개발</a><br>
           💰 코딩으로 나만의 자동매매 시스템을 구축하세요!<br>
-          프로그래밍을 활용해 수익 모델을 직접 개발하는 방법을 배울 수 있습니다.<br><br>
+          프로그래밍을 활용해 수익 모델을 직접 개발하는 방법을 배울 수 있습니다.<br>
           
-          🔥 지금 바로 시작하세요! 실전에서 활용 가능한 강의가 기다리고 있습니다. 🔥<br><br>
+          🔥 지금 바로 시작하세요! 실전에서 활용 가능한 강의가 기다리고 있습니다.<br>
 			</div>
         `;
 
