@@ -4,13 +4,11 @@ document.addEventListener("DOMContentLoaded", function () {
     if (targetElement) {
         let customHTML = `
 			<style>
-				body {
+				.container {
 					font-family: 'Arial', sans-serif;
 					background-color: #f9f9f9;
 					margin: 20px;
 					line-height: 1.6;
-				}
-				.container {
 					max-width: 700px;
 					margin: auto;
 					background: white;
@@ -18,7 +16,8 @@ document.addEventListener("DOMContentLoaded", function () {
 					border-radius: 10px;
 					box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 				}
-				.header {
+			
+				.container .header {
 					text-align: center;
 					font-size: 20px;
 					font-weight: bold;
@@ -27,7 +26,8 @@ document.addEventListener("DOMContentLoaded", function () {
 					border-bottom: 2px solid #ddd;
 					margin-bottom: 20px;
 				}
-				.intro {
+			
+				.container .intro {
 					background: #f4f4f4;
 					padding: 15px;
 					border-radius: 5px;
@@ -35,14 +35,16 @@ document.addEventListener("DOMContentLoaded", function () {
 					color: #555;
 					margin-bottom: 20px;
 				}
-				.section {
+			
+				.container .section {
 					margin-bottom: 20px;
 					padding: 15px;
 					border-left: 5px solid #0073e6;
 					background: #eef4ff;
 					border-radius: 5px;
 				}
-				.section a {
+			
+				.container .section a {
 					display: inline-block;
 					margin-top: 10px;
 					font-size: 16px;
@@ -50,7 +52,8 @@ document.addEventListener("DOMContentLoaded", function () {
 					color: #0073e6;
 					font-weight: bold;
 				}
-				.section a:hover {
+			
+				.container .section a:hover {
 					text-decoration: underline;
 				}
 			</style>
