@@ -5,16 +5,18 @@ document.addEventListener("DOMContentLoaded", function () {
         let customHTML = `
 			<style>
 				.ad-container {
-					font-family: 'Arial', sans-serif;
-					background-color: #f9f9f9;
-					margin: 20px;
-					line-height: 1.6;
 					max-width: 700px;
-					margin: auto;
+					margin: 20px auto;
 					background: white;
 					padding: 20px;
 					border-radius: 10px;
 					box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+					font-family: 'Arial', sans-serif;
+					line-height: 1.6;
+				}
+			
+				.ad-container * {
+					box-sizing: border-box;
 				}
 			
 				.ad-container .header {
@@ -36,7 +38,7 @@ document.addEventListener("DOMContentLoaded", function () {
 					margin-bottom: 20px;
 				}
 			
-				.container .section {
+				.ad-container .section {
 					margin-bottom: 20px;
 					padding: 15px;
 					border-left: 5px solid #0073e6;
