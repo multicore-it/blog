@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
     if (targetElement) {
         let customHTML = `
 			<style>
-				.container {
+				.ad-container {
 					font-family: 'Arial', sans-serif;
 					background-color: #f9f9f9;
 					margin: 20px;
@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function () {
 					box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 				}
 			
-				.container .header {
+				.ad-container .header {
 					text-align: center;
 					font-size: 20px;
 					font-weight: bold;
@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function () {
 					margin-bottom: 20px;
 				}
 			
-				.container .intro {
+				.ad-container .intro {
 					background: #f4f4f4;
 					padding: 15px;
 					border-radius: 5px;
@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", function () {
 					border-radius: 5px;
 				}
 			
-				.container .section a {
+				.ad-container .section a {
 					display: inline-block;
 					margin-top: 10px;
 					font-size: 16px;
@@ -53,12 +53,12 @@ document.addEventListener("DOMContentLoaded", function () {
 					font-weight: bold;
 				}
 			
-				.container .section a:hover {
+				.ad-container .section a:hover {
 					text-decoration: underline;
 				}
 			</style>
 			
-			<div class="container">
+			<div class="ad-container">
 			    💡 최신 기술을 배우고 수익을 창출하세요! 💡<br><br>
 
           🚀 미래를 선도하는 프로그래머를 위한 필수 강의! 🚀<br><br>
