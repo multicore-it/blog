@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-	let targetElement = document.getElementById("inflearn-ad"); // 원하는 위치 선택
+	let targetElement = document.getElementById("crypto-ad"); // 원하는 위치 선택
 
     if (targetElement) {
         let customHTML = `
@@ -61,17 +61,9 @@ document.addEventListener("DOMContentLoaded", function () {
 			</style>
 			
 			<div class="ad-container">
-			    💡 최신 기술을 배우고 수익을 창출하세요! 💡<br>
-          📢 비즈니스 혁신과 자동매매의 핵심 기술을 배우고 싶은 분들을 위한 강의 모음!<br>
-          <a href='https://inf.run/2wTb' target='_blank'>📈 비트코인 선물거래 자동매매 시스템 (저자 직강)</a><br>
-          📉 하락장에서도 수익을 거둘 수 있는 자동매매 기법!<br>
-          비트코인 선물거래의 핵심 원리와 실전 매매 전략을 배우세요.<br><br>
-
-          <a href='https://inf.run/gkkL' target='_blank'>🤖 비트코인 알고리즘 트레이딩 봇 개발</a><br>
-          💰 코딩으로 나만의 자동매매 시스템을 구축하세요!<br>
-          프로그래밍을 활용해 수익 모델을 직접 개발하는 방법을 배울 수 있습니다.<br>
-          
-          🔥 지금 바로 시작하세요! 실전에서 활용 가능한 강의가 기다리고 있습니다.<br>
+			    💡 블록체인의 가능성을 믿는다면, Bitget이 정답입니다! 💡<br>
+          📢 초보부터 전문가까지, 누구나 쉽게! Bitget에서 암호화폐 투자의 첫걸음을 내딛어보세요.<br>
+          <a href='https://share.bitget.com/u/0JKNMET8' target='_blank'>📈 비트겟 가입하기!</a><br>
 			</div>
         `;
 
