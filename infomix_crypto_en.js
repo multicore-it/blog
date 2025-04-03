@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-	let targetElement = document.getElementById("crypto-ad"); // 원하는 위치 선택
+	let targetElement = document.getElementById("crypto-ad-en"); // 원하는 위치 선택
 
     if (targetElement) {
         let customHTML = `
