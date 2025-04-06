@@ -4,66 +4,61 @@ document.addEventListener("DOMContentLoaded", function () {
     if (targetElement) {
         let customHTML = `
 			<style>
-				.ad-container {
-					max-width: 700px;
-					margin: 20px auto;
-					background: white;
-					padding: 20px;
-					border-radius: 10px;
-					box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-					font-family: 'Arial', sans-serif;
-					line-height: 1.6;
-				}
+			  .bitget-ad {
+			    max-width: 680px;
+			    margin: 30px auto;
+			    background: linear-gradient(145deg, #ffffff, #f0f4ff);
+			    border: 1px solid #d0ddf7;
+			    border-radius: 12px;
+			    padding: 25px 30px;
+			    box-shadow: 0 6px 16px rgba(0, 115, 230, 0.1);
+			    font-family: 'Segoe UI', sans-serif;
+			    color: #333;
+			    line-height: 1.7;
+			  }
 			
-				.ad-container * {
-					box-sizing: border-box;
-				}
+			  .bitget-ad .title {
+			    font-size: 22px;
+			    font-weight: bold;
+			    text-align: center;
+			    color: #0073e6;
+			    margin-bottom: 15px;
+			  }
 			
-				.ad-container .header {
-					text-align: center;
-					font-size: 20px;
-					font-weight: bold;
-					color: #333;
-					padding-bottom: 10px;
-					border-bottom: 2px solid #ddd;
-					margin-bottom: 20px;
-				}
+			  .bitget-ad .content {
+			    font-size: 16px;
+			    text-align: center;
+			    color: #444;
+			    margin-bottom: 25px;
+			  }
 			
-				.ad-container .intro {
-					background: #f4f4f4;
-					padding: 15px;
-					border-radius: 5px;
-					font-size: 16px;
-					color: #555;
-					margin-bottom: 20px;
-				}
+			  .bitget-ad .cta-button {
+			    display: inline-block;
+			    text-align: center;
+			    background: #0073e6;
+			    color: #fff;
+			    padding: 12px 30px;
+			    font-size: 16px;
+			    font-weight: bold;
+			    border-radius: 8px;
+			    text-decoration: none;
+			    transition: background 0.3s ease;
+			  }
 			
-				.ad-container .section {
-					margin-bottom: 20px;
-					padding: 15px;
-					border-left: 5px solid #0073e6;
-					background: #eef4ff;
-					border-radius: 5px;
-				}
-			
-				.ad-container .section a {
-					display: inline-block;
-					margin-top: 10px;
-					font-size: 16px;
-					text-decoration: none;
-					color: #0073e6;
-					font-weight: bold;
-				}
-			
-				.ad-container .section a:hover {
-					text-decoration: underline;
-				}
+			  .bitget-ad .cta-button:hover {
+			    background: #005bb5;
+			  }
 			</style>
 			
-			<div class="ad-container">
-			    💡 If you believe in the power of blockchain, Bitget is the answer! 💡<br>
-          📢 From beginners to pros, anyone can start easily! Take your first step into crypto investing with Bitget.<br>
-          <a href='https://share.bitget.com/u/0JKNMET8' target='_blank'>📈 Join Bitget Now!</a><br>
+			<div class="bitget-ad">
+			  <div class="title">💡 Believe in the future of blockchain? Bitget is the answer!</div>
+			  <div class="content">
+			    📢 New to crypto trading?<br>
+			    Whether you're a beginner or a pro, start safely and easily with <strong>Bitget</strong>—the leading platform in copy trading.
+			  </div>
+			  <div style="text-align: center;">
+			    <a class="cta-button" href="https://share.bitget.com/u/0JKNMET8" target="_blank">📈 Join Bitget Now</a>
+			  </div>
 			</div>
         `;
 
