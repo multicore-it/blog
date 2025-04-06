@@ -34,20 +34,21 @@ document.addEventListener("DOMContentLoaded", function () {
 			
 			  .bitget-ad .cta-button {
 			    display: inline-block;
-			    text-align: center;
-			    background: #0052cc;
-			    color: #ffffff !important; /* 강조된 흰색 글자 */
+			    background-color: #0052cc !important;
+			    color: #ffffff !important;
 			    padding: 12px 30px;
 			    font-size: 16px;
 			    font-weight: bold;
 			    border-radius: 8px;
-			    text-decoration: none;
-			    transition: background 0.3s ease;
-			    box-shadow: 0 4px 12px rgba(0, 82, 204, 0.25); /* 버튼 그림자 추가 */
+			    text-decoration: none !important;
+			    transition: background 0.3s ease, color 0.3s ease;
+			    text-align: center;
+			    box-shadow: 0 4px 12px rgba(0, 82, 204, 0.25);
 			  }
 			
 			  .bitget-ad .cta-button:hover {
-			    background: #003f99;
+			    background-color: #003f99 !important;
+			    color: #ffffff !important;
 			  }
 			</style>
 			
@@ -61,6 +62,7 @@ document.addEventListener("DOMContentLoaded", function () {
 			    <a class="cta-button" href="https://share.bitget.com/u/0JKNMET8" target="_blank">📈 지금 바로 비트겟 가입하기</a>
 			  </div>
 			</div>
+
         `;
 
         // 특정 위치에 추가
