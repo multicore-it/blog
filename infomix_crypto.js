@@ -35,18 +35,19 @@ document.addEventListener("DOMContentLoaded", function () {
 			  .bitget-ad .cta-button {
 			    display: inline-block;
 			    text-align: center;
-			    background: #0073e6;
-			    color: #fff;
+			    background: #0052cc;
+			    color: #ffffff !important; /* 강조된 흰색 글자 */
 			    padding: 12px 30px;
 			    font-size: 16px;
 			    font-weight: bold;
 			    border-radius: 8px;
 			    text-decoration: none;
 			    transition: background 0.3s ease;
+			    box-shadow: 0 4px 12px rgba(0, 82, 204, 0.25); /* 버튼 그림자 추가 */
 			  }
 			
 			  .bitget-ad .cta-button:hover {
-			    background: #005bb5;
+			    background: #003f99;
 			  }
 			</style>
 			
