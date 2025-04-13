@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     if (targetElement) {
         let customHTML = `
-			<style>
+						<style>
 				.ad-container {
 					max-width: 700px;
 					margin: 20px auto;
@@ -58,14 +58,54 @@ document.addEventListener("DOMContentLoaded", function () {
 				.ad-container .section a:hover {
 					text-decoration: underline;
 				}
+				
+				.cta-button {
+			    display: inline-block;
+			    margin-top: 15px;
+			    padding: 12px 24px;
+			    background-color: #0073e6;
+			    color: white !important;
+			    border-radius: 5px;
+			    font-size: 16px;
+			    text-align: center;
+			    font-weight: bold;
+			    text-decoration: none;
+			    transition: background-color 0.3s ease;
+			  }
+			  .cta-inf-button {
+			    display: inline-block;
+			    margin-top: 15px;
+			    padding: 12px 24px;
+			    background-color: #c0392b;
+			    color: white !important;
+			    border-radius: 5px;
+			    font-size: 16px;
+			    text-align: center;
+			    font-weight: bold;
+			    text-decoration: none;
+			    transition: background-color 0.3s ease;
+			  }
+			
+			  .cta-inf-button:hover {
+			    background-color: #660000 !important;
+			    color: #ffffff !important;
+			  }
+			  .cta-button:hover {
+			    background-color: #003f99 !important;
+			    color: #ffffff !important;
+			  }
 			</style>
 			
 			<div class="ad-container">
-          🚀 A Must-Read Book for Future-Leading Developers! 🚀<br><br>
-          <a href='https://www.amazon.com/Reinforcement-Learning-Developers-Easiest-Mastering/dp/B0DMLQDGN7' target='_blank'>🎯 Reinforcement Engineering for Developers</a><br>
-          💡 The Core Technology of Business Innovation: Reinforcement Learning!<br>
-          Our easiest and most detailed course will help you apply reinforcement learning in real-world practice.<br><br>
-    			</div>
+				🚀 A Must-Read Book for Future-Leading Developers! 🚀<br>
+				<a class="cta-inf-button" href='https://www.amazon.com/Reinforcement-Learning-Developers-Easiest-Mastering/dp/B0DMLQDGN7' target='_blank'>🎯 Reinforcement Engineering for Developers</a><br>
+				💡 The Core Technology of Business Innovation: Reinforcement Learning!<br><br><br>
+
+				🚀the leading platform in <strong>copy trading</strong> 🚀<br>
+				<a class="cta-button" href="https://share.bitget.com/u/0JKNMET8" target="_blank">📈 Join Bitget Now</a><br>
+				💡 Believe in the future of blockchain? Bitget is the answer!<br>
+				Whether you're a beginner or a pro, start safely and easily with <strong>Bitget</strong>
+			</div>
         `;
 
         // 특정 위치에 추가
