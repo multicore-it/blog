@@ -3,66 +3,111 @@ document.addEventListener("DOMContentLoaded", function () {
 
     if (targetElement) {
         let customHTML = `
-			<style>
-			  .bitget-ad {
-			    max-width: 680px;
-			    margin: 30px auto;
-			    background: linear-gradient(145deg, #ffffff, #f0f4ff);
-			    border: 1px solid #d0ddf7;
-			    border-radius: 12px;
-			    padding: 25px 30px;
-			    box-shadow: 0 6px 16px rgba(0, 115, 230, 0.1);
-			    font-family: 'Segoe UI', sans-serif;
-			    color: #333;
-			    line-height: 1.7;
-			  }
-			
-			  .bitget-ad .title {
-			    font-size: 22px;
-			    font-weight: bold;
-			    text-align: center;
-			    color: #0073e6;
-			    margin-bottom: 15px;
-			  }
-			
-			  .bitget-ad .content {
-			    font-size: 16px;
-			    text-align: center;
-			    color: #444;
-			    margin-bottom: 25px;
-			  }
-			
-			  .bitget-ad .cta-button {
-			    display: inline-block;
-			    background-color: #0052cc !important;
-			    color: #ffffff !important;
-			    padding: 12px 30px;
-			    font-size: 16px;
-			    font-weight: bold;
-			    border-radius: 8px;
-			    text-decoration: none !important;
-			    transition: background 0.3s ease, color 0.3s ease;
-			    text-align: center;
-			    box-shadow: 0 4px 12px rgba(0, 82, 204, 0.25);
-			  }
-			
-			  .bitget-ad .cta-button:hover {
-			    background-color: #003f99 !important;
-			    color: #ffffff !important;
-			  }
-			</style>
-			
-			<div class="bitget-ad">
-			  <div class="title">💡 블록체인의 미래를 믿는다면, Bitget이 정답입니다!</div>
-			  <div class="content">
-			    📢 암호화폐 투자의 시작을 고민 중이신가요?<br>
-			    초보부터 전문가까지 모두를 위한 플랫폼, 카피드레이딩의 선도자 <strong>Bitget</strong>에서 안전하고 쉽게 시작해보세요.
-			  </div>
-			  <div style="text-align: center;">
-			    <a class="cta-button" href="https://share.bitget.com/u/0JKNMET8" target="_blank">📈 지금 바로 비트겟 가입하기</a>
-			  </div>
-			</div>
-
+		<style>
+		  .ad-container {
+		    max-width: 700px;
+		    margin: 20px auto;
+		    background: white;
+		    padding: 20px;
+		    border-radius: 10px;
+		    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+		    font-family: 'Arial', sans-serif;
+		    line-height: 1.6;
+		  }
+		
+		  .ad-container * {
+		    box-sizing: border-box;
+		  }
+		
+		  .ad-container .header {
+		    text-align: center;
+		    font-size: 20px;
+		    font-weight: bold;
+		    color: #333;
+		    padding-bottom: 10px;
+		    border-bottom: 2px solid #ddd;
+		    margin-bottom: 20px;
+		  }
+		
+		  .ad-container .intro {
+		    background: #f4f4f4;
+		    padding: 15px;
+		    border-radius: 5px;
+		    font-size: 16px;
+		    color: #555;
+		    margin-bottom: 20px;
+		  }
+		
+		  .ad-container .section {
+		    margin-bottom: 20px;
+		    padding: 15px;
+		    border-left: 5px solid #0073e6;
+		    background: #eef4ff;
+		    border-radius: 5px;
+		  }
+		
+		  .ad-container .section a {
+		    display: inline-block;
+		    margin-top: 10px;
+		    font-size: 16px;
+		    text-decoration: none;
+		    color: #0073e6;
+		    font-weight: bold;
+		  }
+		
+		  .ad-container .section a:hover {
+		    text-decoration: underline;
+		  }
+		
+		  .cta-button {
+		    display: inline-block;
+		    margin-top: 15px;
+		    padding: 12px 24px;
+		    background-color: #0073e6;
+		    color: white !important;
+		    border-radius: 5px;
+		    font-size: 16px;
+		    text-align: center;
+		    font-weight: bold;
+		    text-decoration: none;
+		    transition: background-color 0.3s ease;
+		  }
+		
+		  .cta-button:hover {
+		    background-color: #003f99 !important;
+		    color: #ffffff !important;
+		  }
+		</style>
+		
+		<div class="ad-container">
+		  💡 최신 기술을 배우고 수익을 창출하세요! 💡<br><br>
+		
+		  🚀 미래를 선도하는 프로그래머를 위한 필수 강의! 🚀<br><br>
+		
+		  📢 비즈니스 혁신과 자동매매의 핵심 기술을 배우고 싶은 분들을 위한 강의 모음!<br><br>
+		
+		  <a href='https://inf.run/NTMnV' target='_blank'>🎯 프로그래머를 위한 강화학습 (저자 직강)</a><br>
+		  💡 비즈니스 혁신의 핵심 기술, 강화학습!<br>
+		  가장 쉽고 상세한 강의로 강화학습을 실무에 적용할 수 있도록 도와드립니다.<br><br>
+		
+		  <a href='https://inf.run/2wTb' target='_blank'>📈 비트코인 선물거래 자동매매 시스템 (저자 직강)</a><br>
+		  📉 하락장에서도 수익을 거둘 수 있는 자동매매 기법!<br>
+		  비트코인 선물거래의 핵심 원리와 실전 매매 전략을 배우세요.<br><br>
+		
+		  <a href='https://inf.run/gkkL' target='_blank'>🤖 비트코인 알고리즘 트레이딩 봇 개발</a><br>
+		  💰 코딩으로 나만의 자동매매 시스템을 구축하세요!<br>
+		  프로그래밍을 활용해 수익 모델을 직접 개발하는 방법을 배울 수 있습니다.<br><br>
+		
+		  🔥 지금 바로 시작하세요! 실전에서 활용 가능한 강의가 기다리고 있습니다. 🔥<br><br>
+		
+		  👉 선착순 모집 중! 기회를 놓치지 마세요. 🚀<br><br>
+		
+		  💡 블록체인의 미래를 믿는다면, Bitget이 정답입니다!<br>
+		  📢 암호화폐 투자의 시작을 고민 중이신가요?<br>
+		  초보부터 전문가까지 모두를 위한 플랫폼, 카피드레이딩의 선도자 <strong>Bitget</strong>에서 안전하고 쉽게 시작해보세요.<br>
+		
+		  <a class="cta-button" href="https://share.bitget.com/u/0JKNMET8" target="_blank">📈 지금 바로 비트겟 가입하기</a>
+		</div>
         `;
 
         // 특정 위치에 추가
