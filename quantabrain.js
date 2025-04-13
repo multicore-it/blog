@@ -99,7 +99,10 @@ document.addEventListener("DOMContentLoaded", function () {
 			<div class="ad-container">
 				🚀 A Must-Read Book for Future-Leading Developers! 🚀<br>
 				<a class="cta-inf-button" href='https://www.amazon.com/Reinforcement-Learning-Developers-Easiest-Mastering/dp/B0DMLQDGN7' target='_blank'>🎯 Reinforcement Engineering for Developers</a><br>
-				💡 The Core Technology of Business Innovation: Reinforcement Learning!<br><br><br>
+				💡 The Core Technology of Business Innovation: Reinforcement Learning!<br><br>
+
+  				🚀 A Must-Read Book for Future-Leading Hackers! 🚀<br>
+				<a class="cta-inf-button" href='https://www.amazon.com/Python-Hacking-Essentials-Earnest-Wish-ebook/dp/B00WFP9S2E' target='_blank'>🎯 Python Hacking Essentials</a><br><br>
 
 				🚀the leading platform in <strong>copy trading</strong> 🚀<br>
 				<a class="cta-button" href="https://share.bitget.com/u/0JKNMET8" target="_blank">📈 Join Bitget Now</a><br>
