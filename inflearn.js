@@ -99,11 +99,11 @@ document.addEventListener("DOMContentLoaded", function () {
 			<div class="ad-container">
 			  💡 최신 기술을 배우고 수익을 창출하세요! 💡<br>
 			  📢 비즈니스 혁신과 자동매매의 핵심 기술을 배우고 싶은 분들을 위한 강의 모음!<br><br>
-     
+			<!--     
 			  <a class="cta-button" href="https://share.bitget.com/u/0JKNMET8" target="_blank">📈 지금 바로 비트겟 가입하기</a><br>
 			  💡 블록체인의 미래를 믿는다면, Bitget이 정답입니다!<br>
 			  📢 <strong>카피드레이딩</strong>의 선도자 <strong>Bitget</strong>에서 안전하고 쉽게 시작해보세요.<br><br>
-     
+     			-->
 			  <a class="cta-inf-button" href="https://inf.run/NTMnV" target="_blank">🎯 프로그래머를 위한 강화학습 (저자 직강)</a><br>
 			  💡 비즈니스 혁신의 핵심 기술, 강화학습!<br>
 			  가장 쉽고 상세한 강의로 강화학습을 실무에 적용할 수 있도록 도와드립니다.<br><br>
