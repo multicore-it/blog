@@ -104,11 +104,12 @@ document.addEventListener("DOMContentLoaded", function () {
     				🚀 A Must-Read Book for Future-Leading Hackers! 🚀<br>
 				<a class="cta-inf-button" href='https://www.amazon.com/Python-Hacking-Essentials-Earnest-Wish-ebook/dp/B00WFP9S2E' target='_blank'>🎯 Python Hacking Essentials</a><br>
 				💡 Easily understandable hacking techniques are described!<br><br>
-
+				<!--
 				🚀the leading platform in <strong>copy trading</strong> 🚀<br>
 				<a class="cta-button" href="https://share.bitget.com/u/0JKNMET8" target="_blank">📈 Join Bitget Now</a><br>
 				💡 Believe in the future of blockchain? Bitget is the answer!<br>
 				Whether you're a beginner or a pro, start safely and easily with <strong>Bitget</strong>
+    				-->
 			</div>
         `;
 
